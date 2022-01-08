@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+body {
+    background-color: black;
+}
+
+#new {
+    font-family: sans-serif;
+    
+    font-weight: 400;
+}
+
+#hand {
+    color: white;
+    width:30px;
+    height:30px;
+    padding-left: 5px;   
+}
+
+#divwhite {
+    width:450px;
+    height:430px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px rgb(146, 124, 124) solid;
+    padding-top: 25px;
+    margin-top: 90px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#formdiv {
+    width:350px;
+    height:470px;
+    background-color: rgb(253, 251, 251);
+    margin:auto;
+    /* padding-bottom: 10px; */
+    position:absolute;
+    left:50px;
+    top:270px;
+    border-radius: 20px;
+    box-shadow: 10px rgb(235, 228, 228) solid;
+    border:1px black solid;
+}
+
+#maindiv {
+    width:450px;
+    height: 650px;
+    background-color: rgba(228, 114, 21, 0.979);
+    color: white;
+    border-radius: 20px;
+    align-self: center;
+    margin: auto;
+    position:absolute;
+    left:575px;
+}
+
+#insidediv {
+    padding:50px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 0px;
+    
+}
+#insidediv1 {
+    padding:1px;
+    padding-left: 48px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+#insidediv2 {
+    padding:1px;
+    padding-left: 48px;
+    font-family:  sans-serif;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+#insidediv3 {
+    padding:1px;
+    padding-left: 48px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.button {
+    width:300px;
+    height:30px;
+    padding:10px;
+    margin:25px;
+    border-radius:8px;
+    animation-direction: reverse;
+    align-content: center;
+}
+
+
+#chatbot {
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:-20px;
+    left:10px;
+}
+.buttonp {
+    position:absolute;
+    top:95px;
+    font-weight: bold;
+    font-size: 12px;
+    height:20px;
+    /* background-color: white;
+    border: 1px solid black; */
+}
+
+.buttonp2 {
+    position:absolute;
+    top:175px;
+    font-weight: bold;
+}
+
+.buttonp3 {
+    position:absolute;
+    top:255px;
+    font-weight: bold;
+}
+
+.buttonp4 {
+    position:absolute;
+    top:335px;
+    font-weight: bold;
+}
+
+#lastbutton {
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 25px;
+    width:265px;
+    height:55px;
+    border-radius: 25px;
+}
+
+
+.lastp{
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+#lni_lni-library {
+    margin-left: 0px;
+    padding-left:0px;
+}
+
+@media screen and (max-width: 600px) {
+    #maindiv {
+      background-color:rgba(228, 114, 21, 0.979);
+      margin: auto;
+      margin-left: 10px;
+      position:absolute;
+      left:5px;
+    }
+  }
+ 
