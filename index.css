@@ -5,7 +5,6 @@ body {
 
 #new {
     font-family: sans-serif;
-    
     font-weight: 400;
 }
 
@@ -143,7 +142,6 @@ body {
     border-radius: 25px;
 }
 
-
 .lastp{
     margin-bottom: 10px;
     padding-bottom: 25px;
@@ -163,4 +161,35 @@ body {
       left:5px;
     }
   }
- 
+  
+.button p{
+    
+	height: 100%;
+    animation: fadeIn 1s ease-in both;
+}
+.button input:nth-child(2) {
+	animation-delay: 1s;
+}
+.button input:nth-child(3) {
+	animation-delay: 2s;
+}
+.button input:nth-child(4) {
+	animation-delay: 3s;
+}
+.button input:nth-child(5) {
+	animation-delay: 4s;
+}
+#button input:nth-child(6) {
+	animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0)
+    }
+}
